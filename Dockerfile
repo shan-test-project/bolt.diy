@@ -74,7 +74,7 @@ RUN mkdir -p /root/.config/.wrangler && \
 # Make bindings script executable
 RUN chmod +x /app/bindings.sh
 
-EXPOSE 5173
+EXPOSE 7860
 
 # Healthcheck for deployment platforms
 HEALTHCHECK --interval=10s --timeout=3s --start-period=5s --retries=5 \
